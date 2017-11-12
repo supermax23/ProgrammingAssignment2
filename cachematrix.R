@@ -1,12 +1,11 @@
 ## The makeCacheMatrix function takes a matrix and outputs a 
-##l ist for the retrieval of the matrix and the its inverse
+## list for the retrieval of the matrix and the its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
       mat <- NULL
       setMatrix <- function(y) {
             x <<- y
-            mat <- NULL
-            
+            mat <- NULL    
       }
       getMatrix <- function() {
             x
